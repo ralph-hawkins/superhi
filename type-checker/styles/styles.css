@@ -1,0 +1,71 @@
+@font-face {
+  font-family: 'faune';
+  font-weight: 400;
+  src: url('../assets/faune-regular.woff2'), url('../assets/faune-regular.woff2');
+}
+
+@font-face {
+  font-family: 'faune';
+  font-weight: 400;
+  font-style: italic;
+  src: url('../assets/faune-italic.woff2'), url('../assets/faune-italic.woff2');
+}
+
+@font-face {
+  font-family: 'faune';
+  font-weight: 700;
+  font-style: bold;
+  src: url('../assets/faune-bold.woff2'), url('../assets/faune-bold.woff2');
+}
+
+body {
+  font-family: 'faune', arial;
+  background-color: #2a2a2a;
+  color: white;
+  margin: 40px 40px 40px 400px;
+}
+
+section.options {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 280px;
+  background-color: #2a2a2a;
+  padding: 40px;
+  border-right: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 24px;
+}
+
+div.option {
+  margin-top: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type='text'] {
+  width: 100%;
+  background-color: #575757;
+  border: none;
+  color: #fff;
+  outline: none;
+  padding: 5px 7px 5px 7px;
+}
+
+textarea.output {
+  font-family: inherit;
+  font-size: 64px;
+  width: 100%;
+  background: none;
+  color: white;
+  border: none;
+  outline: none;
+  min-height: 100vh;
+}
